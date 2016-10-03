@@ -24,12 +24,12 @@
     </target>
 
  <target name="test">
-         <jar destfile="HelloWorld.jar" >
+         <jar destfile="test.jar" >
             <manifest>
                 <attribute name="Main-Class" value="HelloWorld"/>
             </manifest>
         </jar>
-        <java jar="HelloWorld.jar" fork="true"/>
+        <java jar="test.jar" fork="true"/>
     </target>
 
 </project>
