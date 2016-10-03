@@ -23,7 +23,7 @@
     </target>
 
  <target name="test">
-        <javac srcdir="HelloWorld.java" />
+        <javac fork="true" />
 	<java srcdir="HelloWorld" />
         <java jar="HelloWorld.jar" fork="true"/>
     </target>
