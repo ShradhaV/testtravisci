@@ -24,7 +24,7 @@
     </target>
 
  <target name="test">
-         <jar>
+         <jar destfile="HelloWorld.jar" >
             <manifest>
                 <attribute name="Main-Class" value="oata.HelloWorld"/>
             </manifest>
