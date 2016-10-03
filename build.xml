@@ -24,11 +24,6 @@
     </target>
 
  <target name="test">
-         <jar destfile="test.jar" >
-            <manifest>
-                <attribute name="Main-Class" value="HelloWorld"/>
-            </manifest>
-        </jar>
         <java jar="test.jar" fork="true"/>
     </target>
 
