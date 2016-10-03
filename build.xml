@@ -1,3 +1,4 @@
+
 <project>
 
     <target name="clean">
@@ -23,8 +24,11 @@
     </target>
 
  <target name="test">
-        <javac fork="true" />
-	<java srcdir="HelloWorld" />
+         <jar>
+            <manifest>
+                <attribute name="Main-Class" value="oata.HelloWorld"/>
+            </manifest>
+        </jar>
         <java jar="HelloWorld.jar" fork="true"/>
     </target>
 
