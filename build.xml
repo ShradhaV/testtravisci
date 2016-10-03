@@ -23,7 +23,7 @@
     </target>
 
  <target name="test">
-        <java jar="build/jar/HelloWorld.jar" fork="true"/>
+        <java jar="HelloWorld.jar" fork="true"/>
     </target>
 
 </project>
